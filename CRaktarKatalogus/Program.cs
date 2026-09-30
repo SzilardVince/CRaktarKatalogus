@@ -1,9 +1,9 @@
 ﻿using CRaktarKatalogus;
     Console.WriteLine("=== Raktárkészlet Rögzítése ===");
 List<Termék> osszes = new List<Termék>();
-for(int i=0;i<3;i++)
+for (int i = 0; i < 3; i++)
 {
-    Console.WriteLine($"{i+1}. termék addatai:");
+    Console.WriteLine($"{i + 1}. termék addatai:");
     Console.Write($"\tnév: ");
     string nev = Console.ReadLine();
     Console.Write($"\tegységár: ");
